@@ -1,6 +1,6 @@
 .SideDrawer {
   position: fixed;
-  width: 280px;
+  width: 17.5em;
   max-width: 70%;
   height: 100%;
   left: 0;
@@ -9,12 +9,12 @@
   background-color: rgb(209, 206, 206);
   box-sizing: border-box;
   transition: transform 0.3s ease-out;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 .5em .5em 0;
 }
 .saltire{
-  font-size: 18px;
+  font-size: 1.12em;
   font-weight: bolder;
-  margin-right: 20px;
+  margin-right: 1.25em;
   color: black;
   cursor: pointer;
   float: right;
@@ -22,14 +22,14 @@
 }
 .heading{
   background-color: rgb(209, 206, 206);
-  margin-top: 35px;
+  margin-top: 2.18em;
 }
 .SideDrawer ul {
-  padding: 10px;
+  padding: .6em;
   list-style: none;
 }
 .SideDrawer ul li {
-  margin-top: 7px;
+  margin-top: .4em;
 }
 .SideDrawer li a {
   text-decoration: none;
