@@ -1,0 +1,55 @@
+.SideDrawer {
+  position: fixed;
+  width: 280px;
+  max-width: 70%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 200;
+  background-color: rgb(209, 206, 206);
+  box-sizing: border-box;
+  transition: transform 0.3s ease-out;
+  border-radius: 0 8px 8px 0;
+}
+.saltire{
+  font-size: 18px;
+  font-weight: bolder;
+  margin-right: 20px;
+  color: black;
+  cursor: pointer;
+  float: right;
+  margin-top: 1px;
+}
+.heading{
+  background-color: rgb(209, 206, 206);
+  margin-top: 35px;
+}
+.SideDrawer ul {
+  padding: 10px;
+  list-style: none;
+}
+.SideDrawer ul li {
+  margin-top: 7px;
+}
+.SideDrawer li a {
+  text-decoration: none;
+  color: black;
+}
+.SideDrawer li a:hover{
+  background-color: rgba(0, 0, 0, 0.486);
+}
+.SideDrawer li a span:nth-child(2) {
+  margin-left: 4em;
+}
+.Open {
+  transform: translateX(0);
+}
+.Close {
+  transform: translateX(-100%);
+}
+
+@media (min-width: 769px) {
+  .SideDrawer {
+    display: none;
+  }
+}

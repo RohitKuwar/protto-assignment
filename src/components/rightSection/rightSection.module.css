@@ -1,0 +1,124 @@
+.rightSection {
+  height: 550px;
+  background-color: white;
+  margin: auto;
+}
+h2 {
+  font-size: 1em;
+  text-align: center;
+  margin: 0.3em auto;
+}
+.subHeading {
+  display: flex;
+  justify-content: space-between;
+  padding: .1em .3em;
+  font-size: .9em;
+  font-weight: bold;
+  border-bottom: .2em solid gray;
+  width: 95%;
+  margin: auto;
+}
+.description{
+  font-size: .9em;
+  padding: .5em .3em;
+  border-bottom: .27em solid gray;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+}
+.description h5{
+  text-align: center;
+}
+.description p{
+  font-size: .8em;
+  padding: .3em 0;
+}
+.descriptionHide{
+  display: none;
+}
+span:nth-child(1) {
+  font-size: 1.3em;
+}
+.heading {
+  text-align: center;
+  padding: 0.3em .7em;
+  display: flex;
+  justify-content: space-between;
+}
+.heading div:nth-child(2){
+  font-weight: bold;
+}
+.heading div:nth-child(3){
+  font-size: .8em;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  font-size: 0.8em;
+  padding: 0.7em 1.2em;
+  cursor: pointer;
+}
+.items li {
+  list-style: none;
+}
+.items:hover {
+  background-color: rgba(92, 88, 88, 0.281);
+}
+.rightMainContent {
+  height: calc(100% - 130px);
+  overflow: auto;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: .1em 0.8em;
+}
+.itemTotal{
+  display: flex;
+  justify-content: space-between;
+  padding: .3em 0;
+}
+.itemTotal div:nth-child(2){
+  overflow: hidden;
+}
+.orderBtn{
+  display: flex;
+  justify-content: space-between;
+  padding: .3em 0;
+}
+.approveBtn{
+  background-color: chartreuse;
+  cursor: pointer;
+  width: 45%;
+  font-size: .6em;
+  text-align: center;
+  padding: 1em 0;
+  border: none;
+  outline: none;
+}
+.disapproveBtn{
+  background-color: red;
+  cursor: pointer;
+  width: 45%;
+  font-size: .6em;
+  text-align: center;
+  padding: 1em 0;
+  border: none;
+  outline: none;
+}
+.inventoryBtn{
+  padding: .5em 0;
+}
+.checkBtn {
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  padding: 0.2em 0;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  border: none;
+  outline: none;
+}

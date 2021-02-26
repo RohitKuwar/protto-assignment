@@ -1,0 +1,83 @@
+.header{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: .3em;
+  top: 0;
+}
+.header ul{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navLinks{
+  color: black;
+  text-decoration: none;
+}
+.dropBtn{
+  font-size: 1em;
+  text-decoration: none;
+}
+.searchBox{
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  width: 30em;
+  padding: .5em;
+}
+.right{
+  display: flex;
+  flex-direction: row;
+}
+.right ul{
+  list-style: none;
+}
+.right ul li{
+  padding: .5em .7em;
+}
+.DrawerToggle {
+  position: relative;
+  width: 35px;
+  height: 70%;
+  left: 10px;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: none;
+}
+.DrawerToggle span {
+  background-color: black;
+  width: 70%;
+  height: 3px;
+  margin: 2px 0;
+}
+
+@media screen and (max-width:768px){
+  .DrawerToggle {
+    display: flex;
+  }
+  .searchBox{
+    margin-left: 1em;
+  }
+  .left {
+    display: flex;
+  }
+}
+
+@media screen and (max-width:425px){
+  .searchBox{
+    display: none;
+  }
+  .right ul li:nth-child(4){
+    display: none;
+  }
+  .DrawerToggle {
+    display: flex;
+  }
+}
